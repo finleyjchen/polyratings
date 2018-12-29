@@ -1,8 +1,11 @@
 import React, { Component, Fragment } from 'react';
-
 import Navigation from './Navigation';
 import getFirebase, { FirebaseContext } from './Firebase';
 import withAuthentication from './Session/withAuthentication';
+import '../assets/index.scss'
+require("typeface-roboto")
+require("tachyons")
+
 
 class Layout extends Component {
   state = {
